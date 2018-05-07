@@ -24,14 +24,6 @@ arreglo.each_with_index do |e,i|
 end
 
 arreglo = [1,2,3,9,1,4,5,2,3,6,6]
-puts "#4"
-count=0
-arreglo.each do |i|
-	puts "elemento#{i}indice#{count}"
-	count +=1
-end
-
-arreglo = [1,2,3,9,1,4,5,2,3,6,6]
 puts "#5"
 arreglo.each do |i|
 	puts "#{i} " if i%2==0
